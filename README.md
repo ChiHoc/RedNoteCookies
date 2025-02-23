@@ -24,12 +24,14 @@
     - 在右上角打开"开发者模式"
     - 点击左上角的"加载已解压的扩展程序"
     - 选择刚才解压的文件夹
+<img width="487" alt="Install" src="https://github.com/user-attachments/assets/b6f36cb3-a28c-435d-9980-8eff73c6d1b3" />
 
 ## 使用方法
 
 1. 访问小红书网站 (www.xiaohongshu.com)
-2. 点击浏览器工具栏中的插件图标
-3. Cookies 信息将自动复制到剪贴板
+2. 加载完成后右上角会出现一个复制Cookies的按钮
+3. 点击按钮后，Cookies 信息将自动复制到剪贴板
+<img width="487" alt="Usage" src="https://github.com/user-attachments/assets/94635b5a-5360-4eb8-b799-b6ff4435c83a" />
 
 ## 注意事项
 
