@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "小红书Cookie复制器",
+    "version": "1.0",
+    "description": "复制小红书网站的Cookies到剪贴板",
+    "permissions": ["cookies", "clipboardWrite"],
+    "host_permissions": ["*://*.xiaohongshu.com/*"],
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "author": "Chiho",
+    "content_scripts": [
+        {
+            "matches": ["*://*.xiaohongshu.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
